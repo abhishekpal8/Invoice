@@ -1,0 +1,73 @@
+.maindiv{
+    width:"70vw";
+    margin:"auto";
+    padding:"20px";
+    border:"3px dotted red";
+    box-sizing:"border-box";
+}
+.header{
+    height: 5vh;
+    width: 95%;
+    background-color: #df1e4a;
+    display: flex;
+    align-items: center;
+    padding:0px 20px;
+    justify-content: space-between;
+}
+.header>div:first-child{
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+.header>div:nth-child(2){
+    width: 60%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.header>div:nth-child(2)>div{
+    width: 30%;
+}
+
+.companyDetails{
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.companyDetails>div:first-child{
+    width: 40%;
+    font-size: smaller;
+    padding: 10px;
+  
+}
+.companyDetails>div:first-child>img{
+    width: 40%;
+   
+}
+.companyDetails>div:nth-child(2){
+    max-width: 30%;
+    font-size: smaller;
+    padding: 10px;
+    text-align: right;
+}
+.invoiceDetails{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.billDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+.billHeading{
+    /* border-bottom:3px dashed; */
+    display: flex;
+    justify-content: space-between;
+}
+.note{
+    font-size: smaller;
+}
